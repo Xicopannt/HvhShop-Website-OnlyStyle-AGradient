@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/Raleway.ttf);
+}
+body{
+  background: linear-gradient(-40deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+h3.prod {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 25px;
+  color: white;
+  text-shadow: 0px 1px 10px rgb(255, 255, 255);
+}
+div.block{
+  position: relative;
+  left: 600px;
+  border-radius: 15px;
+  background-color: rgb(73, 73, 73);
+  width: 120px;
+  padding: 10px;
+}
+h3.block2{
+  font-family: "Raleway";
+  font-size: 25px;
+  color: white;
+  text-shadow: 0px 1px 10px rgb(255, 255, 255);
+  text-align: center;
+}
+ul {
+  font-family: "Raleway";
+  color: white;
+  font-size: 15px;
+  text-shadow: 0px 2px 10px rgb(255, 255, 255); 
+}
+.glow-button2 {
+  font-family: "Raleway";
+  position: relative;
+  left: 570px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px rgb(73, 73, 73) inset, 0 0 0 0 rgb(73, 62, 62);
+  text-shadow: 0px 2px 10px rgb(255, 255, 255); 
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+  font-size: 15px;
+}
+.glow-button2:hover {
+  box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+  transform: translateY(-5px);
+}
+div.bord{
+  display: inline-block;
+  margin-top: 100px;
+  border-radius: 15px;
+  background-color: rgb(73, 73, 73);
+  width: 160px;
+  padding: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  vertical-align: bottom;
+  margin-left: 300px;
+}
+div.bord2{
+  display: inline-block;
+  align-items: center;
+  margin-top: 100px;
+  border-radius: 15px;
+  background-color: rgb(73, 73, 73);
+  width: 160px;
+  padding: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: bottom;
+}
+div.bord3{
+  align-items: center;
+  display: inline-block;
+  margin-top: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: bottom;
+  border-radius: 15px;
+  background-color: rgb(73, 73, 73);
+  width: 160px;
+  padding: 50px;
+}
+ul.d{
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: -45px;
+}
+ul.d2{
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  margin-left: -45px;
+}
+ul.d3{
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  margin-left: -45px;
+}
+a.butt1 {
+  font-family: "Raleway";
+  position: relative;
+  left: -30px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px rgb(78, 78, 78) inset, 0 0 0 0 rgb(64, 64, 64);
+  text-shadow: 0px 2px 10px rgb(255, 255, 255); 
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+  font-size: 15px;
+}
+a.butt1:hover{
+  box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+  transform: translateY(-7px);
+}
+a.butt2 {
+  font-family: "Raleway";
+  position: relative;
+  left: -20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px rgb(78, 78, 78) inset, 0 0 0 0 rgb(64, 64, 64);
+  text-shadow: 0px 2px 10px rgb(255, 255, 255); 
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+  font-size: 15px;
+}
+a.butt2:hover{
+  box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+  transform: translateY(-7px);
+}
+a.butt3 {
+  font-family: "Raleway";
+  position: relative;
+  left: -20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px rgb(78, 78, 78) inset, 0 0 0 0 rgb(64, 64, 64);
+  text-shadow: 0px 2px 10px rgb(255, 255, 255); 
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+  font-size: 15px;
+}
+a.butt3:hover{
+ box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+  transform: translateY(-7px);
+}
+@keyframes gradient {
+  0% {
+      background-position: 0 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0 50%;
+  }
+}
+@keyframes sublimeRotate {
+  from {
+      transform: rotateY(90deg);
+  }
+  to {
+      transform: rotateY(0deg);
+  }
+}
+
